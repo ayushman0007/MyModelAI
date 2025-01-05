@@ -41,32 +41,12 @@ To install the necessary libraries, run:
 pip install tensorflow scikit-learn matplotlib hmmlearn
 ```
 
-## Running the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/cifar10-classification.git
-   cd cifar10-classification
-   ```
-
-2. Run the Jupyter Notebook or Python script:
-   ```bash
-   jupyter notebook cifar10_classification.ipynb
-   ```
-
-3. The notebook will preprocess the data, extract features, train the models, and display the results.
-
 ## Results
 - Naive Bayes Accuracy: ~[XX]%
 - HMM Accuracy: ~[YY]%
 
 Sample predictions for the first few test images are displayed, including true labels and predictions from both models.
 
-## File Structure
-```
-.
-├── cifar10_classification.ipynb  # Main notebook with the code
-├── README.md                     # Project documentation
-```
 
 ## Notes
 - The project subsets the dataset to 500 images for faster execution. You can increase this number for better results.
